@@ -1,0 +1,68 @@
+= facebook_distance_of_time_in_words
+
+	facebook_distance_of_time_in_words helps you to display time distance just like Facebook does
+
+== Install
+
+   `script/plugin install git://github.com/cedricbousmanne/facebook_distance_of_time_in_words.git`
+
+== Usage
+
+	In your view:
+	
+	<%= facebook_distance_of_time_in_words(@object.created_at) %>
+	
+== Examples
+
+	<% dates = [
+		Time.now-1.minute, 
+		Time.now-5.minutes,
+		Time.now-33.minutes,
+		Time.now-1.hour,
+		Time.now-1.4.hours,
+		Time.now-1.6.hours,
+		Time.now-3.hours,
+		Time.now-23.hours,
+		Time.now-1.day,
+		Time.now-1.day-12.hours,
+		Time.now-2.days,
+		Time.now-3.days,
+		Time.now-4.days,
+		Time.now-5.days,
+		Time.now-6.days,
+		Time.now-7.days,
+	] %>
+	
+	<% for date in dates -%>
+		<%= facebook_distance_of_time_in_words(date) %><br />
+	<% end -%>
+
+=== Produces
+
+	#: Now = Wednesday, 7:35 PM
+	
+	today at 19:34<br />
+	today at 19:30<br />
+	today at 19:02<br />
+	about one hour ago<br />
+	about one hour ago<br />
+	about 2 hours ago<br />
+	about 3 hours ago<br />
+	yesterday at 20:35<br />
+	yesterday at 19:35<br />
+	yesterday at 07:35<br />
+	monday at 19:35<br />
+	sunday at 19:35<br />
+	saturday at 19:35<br />
+	friday at 19:35<br />
+	thursday at 19:35<br />
+	7 days ago<br />
+
+== Localization
+
+	facebook_distance_of_time_in_words uses i18n to display time distance. For now, only french and english are available. If you're able to translate the localization files into others languages, feel free to contact me and i'll add your contribution to the project.
+	
+== Contact
+
+	This plugin has been written by Cédric Bousmanne. 
+	You can find contact information on my personnal page : http://cedricbousmanne.com/
