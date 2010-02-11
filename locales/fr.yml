@@ -5,7 +5,7 @@ fr:
     days_ago: "il y a {{day_string}}"
     today_at_time: "aujourd'hui à {{hour}}"
     month_at_time: "{{month}} {{day}} à {{hour}}"
-    month_year_at_time: "{{month}} {{day}}, {{year}} at {{hour}}"
+    month_year_at_time: "{{month}} {{day}}, {{year}} à {{hour}}"
     month_year: "{{month}} {{day}}, {{year}}"
   time:
     formats:
