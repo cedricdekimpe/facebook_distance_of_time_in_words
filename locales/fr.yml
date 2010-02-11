@@ -13,11 +13,11 @@ fr:
       fdotin_year: "%Y"     
       fdotin_day_name: "%A"
       fdotin_day_number: "%d"
-      fdotin_hour_minute: "%l:%M %p"
+      fdotin_hour_minute: "%l:%M%p"
   date:
     formats:
       fdotin_month_name: "%B"
       fdotin_year: "%Y"     
       fdotin_day_name: "%A"
       fdotin_day_number: "%d"
-      fdotin_hour_minute: "%l:%M %p"
+      fdotin_hour_minute: "%l:%M%p"
