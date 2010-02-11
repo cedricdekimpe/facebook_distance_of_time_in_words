@@ -18,6 +18,9 @@ module FacebookDistanceOfTimeInWords # :nodoc: all
       when days_difference < 7
         #: If the date is in the week, we display the day's name
         t(:day_with_hour, :scope => :facebook_distance_of_time_in_words, :day => l(past_date, :format => :fdotin_day_name), :hour => l(past_date, :format => :fdotin_hour_minute))
+      when past_date.month == today.month &&  past_date.year == today.year
+        #: Current Month
+        t(:days_ago, :scope => :facebook_distance_of_time_in_words, :day_string => time_ago_in_words(past_date, false))
       else
         #: Else, distance
         t(:days_ago, :scope => :facebook_distance_of_time_in_words, :day_string => distance_of_time_in_words_to_now(past_date, false))
