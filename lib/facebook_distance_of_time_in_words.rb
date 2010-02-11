@@ -8,7 +8,7 @@ module FacebookDistanceOfTimeInWords # :nodoc: all
         #: if the date is today, we display time
         time_difference = (Time.now-past_date)
         if time_difference > 1.hour
-          t(:days_ago, :scope => :facebook_distance_of_time_in_words, :day_string => distance_of_time_in_words_to_now(past_date, false))
+          t(:days_ago, :scope => :facebook_distance_of_time_in_words, :day_string => time_ago_in_words(past_date, false))
         else
           t(:today_at_time, :scope => :facebook_distance_of_time_in_words, :hour => l(past_date, :format => :fdotin_hour_minute))
         end
@@ -26,7 +26,7 @@ module FacebookDistanceOfTimeInWords # :nodoc: all
         t(:month_at_time, :scope => :facebook_distance_of_time_in_words, :month => l(past_date, :format => :fdotin_month_name), :day => l(past_date, :format => :fdotin_day_number), :hour => l(past_date, :format => :fdotin_hour_minute))
       else
         #: Else, distance
-        t(:days_ago, :scope => :facebook_distance_of_time_in_words, :day_string => distance_of_time_in_words_to_now(past_date, false))
+        t(:days_ago, :scope => :facebook_distance_of_time_in_words, :day_string => time_ago_in_words(past_date, false))
       end
     end
   end
