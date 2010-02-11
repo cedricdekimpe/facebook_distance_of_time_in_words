@@ -2,11 +2,11 @@ module FacebookDistanceOfTimeInWords # :nodoc: all
   module FacebookDistanceOfTimeInWordsHelpers
     def facebook_distance_of_time_in_words(past_date)
       today = Date.today
-      days_difference = (today-past_date.to_date).to_i
-      case 
+      days_difference = (today - past_date.to_date).to_i
+      case
       when days_difference == 0
         #: if the date is today, we display time
-        time_difference = (Time.now-past_date)
+        time_difference = (Time.now - past_date)
         if time_difference > 1.hour
           t(:days_ago, :scope => :facebook_distance_of_time_in_words, :day_string => time_ago_in_words(past_date, false))
         else
