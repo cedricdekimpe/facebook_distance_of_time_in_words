@@ -31,6 +31,8 @@
 		Time.now-5.days,
 		Time.now-6.days,
 		Time.now-7.days,
+		Time.now-1.month,
+		Time.now-1.year,
 	] %>
 	
 	<% for date in dates -%>
@@ -41,22 +43,24 @@
 
 	#: Now = Wednesday, 7:35 PM
 	
-	today at 19:34<br />
-	today at 19:30<br />
-	today at 19:02<br />
+	today at  7:34pm<br />
+	today at  7:30pm<br />
+	today at  7:02pm<br />
 	about one hour ago<br />
 	about one hour ago<br />
 	about 2 hours ago<br />
 	about 3 hours ago<br />
-	yesterday at 20:35<br />
-	yesterday at 19:35<br />
-	yesterday at 07:35<br />
-	monday at 19:35<br />
-	sunday at 19:35<br />
-	saturday at 19:35<br />
-	friday at 19:35<br />
-	thursday at 19:35<br />
+	yesterday at  8:35pm<br />
+	yesterday at  7:35pm<br />
+	yesterday at  7:35am<br />
+	Mon at  7:35pm<br />
+	Sun at  7:35pm<br />
+	Sat at  7:35pm<br />
+	Fri at  7:35pm<br />
+	Thu at  7:35pm<br />
 	7 days ago<br />
+	January 11 at  7:35pm<br />
+	February 11, 2009<br />
 
 == Localization
 
