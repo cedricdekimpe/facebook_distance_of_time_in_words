@@ -5,13 +5,19 @@ en:
     days_ago: "{{day_string}} ago"
     today_at_time: "today at {{hour}}"
     month_at_time: "{{month}} {{day}} at {{hour}}"
+    month_year_at_time: "{{month}} {{day}}, {{year}} at {{hour}}"
+    month_year: "{{month}} {{day}}, {{year}}"
   time:
     formats:
       fdotin_month_name: "%B"
+      fdotin_year: "%Y"     
       fdotin_day_name: "%A"
-      fdotin_hour_minute: "%H:%M"
+      fdotin_day_number: "%d"
+      fdotin_hour_minute: "%l:%M %p"
   date:
     formats:
       fdotin_month_name: "%B"
+      fdotin_year: "%Y"     
       fdotin_day_name: "%A"
-      fdotin_hour_minute: "%H:%M"
+      fdotin_day_number: "%d"
+      fdotin_hour_minute: "%l:%M %p"
