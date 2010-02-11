@@ -21,6 +21,9 @@ module FacebookDistanceOfTimeInWords # :nodoc: all
       when past_date.month == today.month &&  past_date.year == today.year
         #: Current Month
         t(:days_ago, :scope => :facebook_distance_of_time_in_words, :day_string => time_ago_in_words(past_date, false))
+      when past_date.year == today.year
+        # : Current Year
+        t(:month_at_time, :scope => :facebook_distance_of_time_in_words, :month => l(past_date, :format => :fdotin_month_name), :day => l(past_date, :format => :fdotin_day_number), :hour => l(past_date, :format => :fdotin_hour_minute))
       else
         #: Else, distance
         t(:days_ago, :scope => :facebook_distance_of_time_in_words, :day_string => distance_of_time_in_words_to_now(past_date, false))
