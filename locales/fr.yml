@@ -4,11 +4,14 @@ fr:
     day_with_hour: "{{day}} à {{hour}}"
     days_ago: "il y a {{day_string}}"
     today_at_time: "aujourd'hui à {{hour}}"
+    month_at_time: "{{month}} {{day}} à {{hour}}"
   time:
     formats:
+      fdotin_month_name: "%B"
       fdotin_day_name: "%A"
       fdotin_hour_minute: "%H:%M"
   date:
     formats:
+      fdotin_month_name: "%B"
       fdotin_day_name: "%A"
       fdotin_hour_minute: "%H:%M"
