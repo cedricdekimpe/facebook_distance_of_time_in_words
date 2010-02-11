@@ -25,8 +25,8 @@ module FacebookDistanceOfTimeInWords # :nodoc: all
         # : Current Year
         t(:month_at_time, :scope => :facebook_distance_of_time_in_words, :month => l(past_date, :format => :fdotin_month_name), :day => l(past_date, :format => :fdotin_day_number), :hour => l(past_date, :format => :fdotin_hour_minute))
       else
-        #: Else, distance
-        t(:days_ago, :scope => :facebook_distance_of_time_in_words, :day_string => time_ago_in_words(past_date, false))
+        # When all else fails...
+        t(:month_year, :scope => :facebook_distance_of_time_in_words, :month => l(past_date, :format => :fdotin_month_name), :year => l(past_date, :format => :fdotin_year), :day => l(past_date, :format => :fdotin_day_number), :hour => l(past_date, :format => :fdotin_hour_minute))
       end
     end
   end
