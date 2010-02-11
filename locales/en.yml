@@ -4,11 +4,14 @@ en:
     day_with_hour: "{{day}} at {{hour}}"
     days_ago: "{{day_string}} ago"
     today_at_time: "today at {{hour}}"
+    month_at_time: "{{month}} {{day}} at {{hour}}"
   time:
     formats:
+      fdotin_month_name: "%B"
       fdotin_day_name: "%A"
       fdotin_hour_minute: "%H:%M"
   date:
     formats:
+      fdotin_month_name: "%B"
       fdotin_day_name: "%A"
       fdotin_hour_minute: "%H:%M"
