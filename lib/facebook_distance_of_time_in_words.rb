@@ -1,6 +1,7 @@
 module FacebookDistanceOfTimeInWords # :nodoc: all
   module FacebookDistanceOfTimeInWordsHelpers
     def facebook_distance_of_time_in_words(past_date)
+      return if past_date.blank?
       today = Date.today
       days_difference = (today - past_date.to_date).to_i
       case
