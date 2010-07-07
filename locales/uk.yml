@@ -1,0 +1,23 @@
+uk:
+  facebook_distance_of_time_in_words:
+    yesterday_at_time: "учора о {{hour}}"
+    day_with_hour: "{{day}} о {{hour}}"
+    days_ago: "{{day_string}} тому"
+    today_at_time: "сьогодні о {{hour}}"
+    month_at_time: "{{month}} {{day}} о {{hour}}"
+    month_year_at_time: "{{month}} {{day}}, {{year}} о {{hour}}"
+    month_year: "{{month}} {{day}}, {{year}}"
+  time:
+    formats:
+      fdotin_month_name: "%B"
+      fdotin_year: "%Y"     
+      fdotin_day_name: "%a"
+      fdotin_day_number: "%d"
+      fdotin_hour_minute: "%l:%M%p"
+  date:
+    formats:
+      fdotin_month_name: "%B"
+      fdotin_year: "%Y"     
+      fdotin_day_name: "%a"
+      fdotin_day_number: "%d"
+      fdotin_hour_minute: "%l:%M%p"
