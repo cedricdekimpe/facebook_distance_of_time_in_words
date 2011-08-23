@@ -1,11 +1,11 @@
-fr:
+es:
   facebook_distance_of_time_in_words:
-    yesterday_at_time: "hier à %{hour}"
-    day_with_hour: "%{day} à %{hour}"
-    days_ago: "il y a %{day_string}"
-    today_at_time: "aujourd'hui à %{hour}"
-    month_at_time: "%{month} %{day} à %{hour}"
-    month_year_at_time: "%{month} %{day}, %{year} à %{hour}"
+    yesterday_at_time: "ayer a las %{hour}"
+    day_with_hour: "%{day} a las %{hour}"
+    days_ago: "%{day_string} atras"
+    today_at_time: "hoy a las %{hour}"
+    month_at_time: "%{month} %{day} a las %{hour}"
+    month_year_at_time: "%{month} %{day}, %{year} a las %{hour}"
     month_year: "%{month} %{day}, %{year}"
   time:
     formats:
