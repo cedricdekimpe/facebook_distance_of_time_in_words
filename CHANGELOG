@@ -1,2 +1,6 @@
-2010-01-11 : Added some additional Facebook time formats and updated the time to display in 12 hour format with am/pm
-2010-01-06 : First version of the plugin
+2010-09-08 : Updated to the latest i18n syntax for the locales (acmetech)
+2010-07-08 : Changed the DateTime formats (romanvbabenko)
+2010-07-07 : Added the Ukrainian locale (romanvbabenko)
+2010-02-22 : Added spanish localization (carakan)
+2010-02-11 : Added some additional Facebook time formats and updated the time to display in 12 hour format with am/pm (acmetech)
+2010-01-06 : First version of the plugin (cedricbousmanne)
