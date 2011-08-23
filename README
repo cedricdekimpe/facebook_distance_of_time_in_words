@@ -64,7 +64,7 @@
 
 == Localization
 
-	facebook_distance_of_time_in_words uses i18n to display time distance. For now, only french and english are available. If you're able to translate the localization files into others languages, feel free to contact me and i'll add your contribution to the project.
+	facebook_distance_of_time_in_words uses i18n to display time distance. For now, only french, english, spanish and ukrainian are available. If you're able to translate the localization files into others languages, feel free to contact me and i'll add your contribution to the project.
 	
 == Contact
 
